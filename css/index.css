@@ -159,18 +159,18 @@ nav a {
     color: black;
     text-decoration: none;
     margin: 10px;
-    padding: 10px;
+    padding: 25px;
     display: flex;
     /*align-items: flex-end;*/
     margin-top: 70px;
     /*flex-direction: row-reverse;*/
     /* justify-content: flex-end; */
-    align-content: space-between;
+    justify-content: space-evenly;
 }
 
 .top-content {
     width: 1000px;
-    margin: auto;
+    margin: 0 auto;
     padding: auto;
 
 }
@@ -189,11 +189,13 @@ nav a {
     justify-content: space-evenly;
 }
 
-.box {
-    /* display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto); */
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 70%;
 }
 
 .box1 {
@@ -201,8 +203,9 @@ nav a {
     width: 51px;
     margin: 20px;
     padding: 10px;
-
+    margin-left: 35px;
 }
+
 
 .box2 {
     background-color: gold;
@@ -233,14 +236,17 @@ nav a {
     width: 51px;
     margin: 20px;
     padding: 10px;
-
+    margin-right: 20px
 }
 
 .box6 {
+    display: flex;
+    flex-flow: wrap;
     background-color: forestgreen;
     width: 51px;
     margin: 20px;
     padding: 10px;
+    margin-left: 40px;
 
 }
 
@@ -279,10 +285,11 @@ nav-bar {
     display: flex;
     margin: auto;
     padding: auto;
-    justify-content: space-between;
-    flex-direction: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 900px;
 }
-.grid {
-    display: grid;
-    grid-template-rows: 2;
+
+h2 {
+    margin-top: 15px;
 }
