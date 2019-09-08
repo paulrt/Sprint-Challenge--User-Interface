@@ -1,7 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+  http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
 
 html,
 body,
@@ -88,8 +87,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
+}   HTML5 display-role reset for older browsers
 article,
 aside,
 details,
@@ -129,7 +127,7 @@ table {
   box-sizing: border-box;
 }
 
-/* .flexrow1 {
+ .flexrow1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -179,8 +177,8 @@ header {
   width: 800px;
   margin: 0 auto;
   padding: auto;
-  justify-content: baseline; */ */
-  /* border: 1px solid red;
+  justify-content: baseline;
+  border: 1px solid red;
 }
 
 h1,
@@ -196,15 +194,13 @@ h5 {
 p {
   line-height: 1.4;
 }
-
-/* .grid-item {
+  .grid-item {
   width: 70%;
   margin: 0 auto;
   padding: auto;
   justify-content: flex-start;  
-} */
-
-/* .grid-container {
+}
+  .grid-container {
   display: flex;
   flex-wrap: wrap;
   width: 80%;
@@ -212,8 +208,7 @@ p {
   padding: auto;
   justify-content: baseline;
   display: grid;
-} */
-
+}
 .container {
   width: 800px;
   margin: 0 auto;
@@ -293,7 +288,7 @@ header img {
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  /* background: black; */
+  background: black; *  
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -388,8 +383,7 @@ header img {
   width: 51px;
   margin: 20px;
   padding: 10px;
-}
-
+}  
 .bottom-content {
   display: flex;
   margin: 0 20px;
@@ -406,13 +400,12 @@ header img {
   padding-right: 0;
   width: 45%;
 }
-
-/* .bossbottom {
+  .bossbottom {
   width: 800px;
   margin: 0 auto;
   padding: auto;
   justify-content: center;
-} */
+} *  
 
 footer {
   width: 80%;
@@ -435,9 +428,7 @@ footer nav a {
   color: white;
   text-decoration: none;
 }
-
-/* About.html*/
-
+  About.htm  
 img {
     margin-top: 10px;
     padding: 50px;
@@ -468,8 +459,7 @@ img {
   padding: auto;
   justify-content: center;
 }
-
-/* .about-mid-content_item {
+  .about-mid-content_item {
     display: flex;
     flex-direction: wrap;
     justify-content: space-between;
@@ -478,7 +468,7 @@ img {
     width: 46%;
     margin-bottom: 1.5em;
     border-bottom: 1px dashed black;
-} */
+}  
 
 .about-mid-content_item button {
   text-decoration: none;
@@ -491,19 +481,16 @@ img {
 
 .about-mid-content_item {
   display: flex;
-  /* flex-direction: column;
-  justify-content: left; */
-  /* align-items: flex-start; */
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start; *  
   padding: 1.5em;
   width: 100%;
   margin-bottom: 1.5em;
   border-bottom: 1px dashed black;
-  /* maring-right: 800px; */
+  margin-right: 800px;   
   padding: auto;
   float: left;
-
-
-
 }
 
 .about-bot-content {
@@ -534,7 +521,6 @@ img {
    
 }
 
-
 .about-bot-content_text {
   display: flex;
   padding: auto;
@@ -542,26 +528,25 @@ img {
   margin: 20px auto;
 }
 
-/* nav a {
+nav a {
     width: 110%;
     color: black;
     text-decoration: none;
     margin: 10px;
     padding: 25px;
-    display: flex; */
-/*align-items: flex-end;*/
-/* margin-top: 70px; */
-/*flex-direction: row-reverse;*/
-/* justify-content: flex-end; */
-/* justify-content: space-evenly; */
-/* } */
+    display: flex;  
+    align-items: flex-end   
+    margin-top: 70px;   
+    flex-direction: row-reverse    
+    justify-content: flex-end;    
+    justify-content: space-evenly;    
+}
 
-/* .top-content { */
-/* width: 1000px; */
-/* margin: 0 auto; */
-/* padding: auto; */
-
-/* }
+.top-content {      
+    width: 1000px;      
+    margin: 0 auto;   
+    padding: auto;
+  }
 
 .top-img {
     display: flex;
@@ -570,9 +555,7 @@ img {
     margin: 10px;
     padding: 10px;
 }
-*/
-
-/* nav-bar {
+  nav-bar {
     display: flex;
     margin: auto;
     padding: auto;
@@ -580,8 +563,9 @@ img {
     flex-wrap: wrap;
     width: 900px;
     margin-right: 100px;
-} */
-/*
+    margin-top: 20px;
+    align-items: baseline;
+}   
 h2 {
     margin-top: 15px;
 }
@@ -625,13 +609,14 @@ button {
     margin: 0 auto;
     padding: auto;
     align-content: flex-start
-} */
+} *  
 
 nav {
   width: 80%;
   margin: 20px;
   padding: auto;
   display: flex;
+  margin-top: 35px;
 }
 
 .logo {
@@ -650,4 +635,139 @@ nav .nav-bar a {
   padding: auto;
   justify-content: right;
   margin-left: 50%;
+  margin-top: 35px;
+}
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* .nav-bar {
+  width: 920px;
+  margin: auto;
+  display: flex;
+  padding: auto;
+  align-content: baseline;
+} */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+.container-about-page {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+ 
+.main_bottom {
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
+}
+
+.main_bottom .main_text2 {
+  padding-right: 4%;
+}
+
+.main_bottom .together_text:last-child {
+  padding-right: 0;
+}
+
+footer {
+  width: 100%;
+  background: black;
+}
+
+footer .nav-bar {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
+.container about-page {
+  border-bottom: 1px dashed black;
+}
+
+.section1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section1 div {
+  width: 20%;
+  border-bottom: 1px dashed black;
+  padding: 0px 0px 20px 0px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.section2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.section2 div {
+  width: 20%;
+  border-bottom: 1px dashed black;
+  padding: 0px 0px 20px 0px;
+  margin-left: 0px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 0px; 
+  width: 150px;
+  height: 35px; 
 }
