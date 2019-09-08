@@ -229,6 +229,16 @@ header {
     margin: 0px auto;
     padding: auto;
     justify-content: space-evenly;
+    display: flex;
+    align-items: baseline;
+}
+
+.main !important {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: auto;
+  justify-content: center;
 }
 
 header nav {
