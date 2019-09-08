@@ -166,7 +166,7 @@ table {
 .flexrow1 > div:first-child
 {
   flex: 0 1 50%
-} */
+}
 
 
 html,
@@ -179,8 +179,8 @@ header {
   width: 800px;
   margin: 0 auto;
   padding: auto;
-  justify-content: baseline;
-  /* border: 1px solid red; */
+  justify-content: baseline; */ */
+  /* border: 1px solid red;
 }
 
 h1,
@@ -626,3 +626,28 @@ button {
     padding: auto;
     align-content: flex-start
 } */
+
+nav {
+  width: 80%;
+  margin: 20px;
+  padding: auto;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  margin: 0 auto;
+  padding: auto;
+  
+}
+
+nav .nav-bar a {
+  width: 70%;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin 20px auto;
+  padding: auto;
+  justify-content: right;
+  margin-left: 50%;
+}
