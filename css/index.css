@@ -2,11 +2,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -14,7 +13,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -26,7 +25,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: flex;
 }
 body {
 	line-height: 1;
@@ -46,31 +45,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -78,29 +71,44 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+.middle-content:last-child {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.mid {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -111,26 +119,21 @@ p {
     align-items: center;
     justify-content: center;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -139,8 +142,190 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.nav-bar {
+    display: flex;
+    align-content: baseline;
+    justify-content: space-evenly;
+    
+}
+
+img {
+    /* margin-top: 10px;
+    padding: 50px; */
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+
+.mid .midi {
+    display: flex;
+
+}
+
+.midi .bottomcontent {
+    display: flex;
+
+}
+
+nav a {
+    width: 110%;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    /*align-items: flex-end;*/
+    margin-top: 70px;
+    /*flex-direction: row-reverse;*/
+    /* justify-content: flex-end; */
+    align-content: space-between;
+}
+.top-content {
+    width: 1000px;
+    margin: auto;
+    padding: auto;
+}
+.top-img {
+    display: flex;
+    flex: stretch;
+    width: 110%;    
+    margin: 10px;
+    padding: 10px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+}
+
+@keyframes header.NavColors {
+    from {
+        color: white;
+    }
+    to {
+        color: hotpink;
+    }
+}
+
+.middle-content .text .one2five .grid .boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    padding: 5px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.middle-content .text .six2ten .grid2 .boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    padding: 5px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+/* .middle-content .text .six2ten .grid2 .boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    padding: 5px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+} */
+div.box1 {
+    background-color: teal;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    margin-left: 125px;
+}
+div.box2 {
+    background-color: gold;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+}
+div.box3 {
+    background-color: cadetblue;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+}
+div.box4 {
+    background-color: coral;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+}
+div.box5 {
+    background-color: crimson;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+    margin-right: 150px;
+}
+div.box6 {
+    background-color: forestgreen;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 125px;
+}
+div.box7 {
+    background-color: darkorchid;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+}
+div.box8 {
+    background-color: hotpink;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+}
+div.box9 {
+    background-color: indigo;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+}
+div.box10 {
+    background-color: dodgerblue;
+    width: 51px;
+    margin: 20px;
+    padding: 10px;
+    margin-right: 125px;
+}
+
+.nav-stuff {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    justify-content: space-between;
+    flex-direction: flex-end;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 2;
+} 
