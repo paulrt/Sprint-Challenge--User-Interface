@@ -77,6 +77,13 @@ p {
     padding-bottom: 20px;  
 }
 
+.middle-content:last-child {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
 .mid {
   display: flex;
   flex-direction: row;
@@ -192,11 +199,50 @@ nav a {
 }
 .boxes {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
     width: 51px;
     margin: 20px;
     padding: 10px;
+}
+
+@keyframes header.NavColors {
+    from {
+        color: white;
+    }
+    to {
+        color: hotpink;
+    }
+}
+
+.middle-content .text .one2five .grid .boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    padding: 5px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+}
+
+.middle-content .text .six2ten .grid2 .boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    padding: 5px;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+/* .middle-content .text .six2ten .grid2 .boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    padding: 5px;
+    margin-left: 100px;
+    flex-wrap: wrap;
 }
 
 .boxes {
@@ -204,13 +250,14 @@ nav a {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-}
+} */
 div.box1 {
     background-color: teal;
     width: 51px;
     margin: 20px;
     padding: 10px;
     display: flex;
+    margin-left: 125px;
 }
 div.box2 {
     background-color: gold;
@@ -235,12 +282,14 @@ div.box5 {
     width: 51px;
     margin: 20px;
     padding: 10px;
+    margin-right: 150px;
 }
 div.box6 {
     background-color: forestgreen;
     width: 51px;
     margin: 20px;
     padding: 10px;
+    margin-left: 125px;
 }
 div.box7 {
     background-color: darkorchid;
@@ -248,7 +297,7 @@ div.box7 {
     margin: 20px;
     padding: 10px;
 }
-.boxes, .box8 {
+div.box8 {
     background-color: hotpink;
     width: 51px;
     margin: 20px;
@@ -265,14 +314,16 @@ div.box10 {
     width: 51px;
     margin: 20px;
     padding: 10px;
+    margin-right: 125px;
 }
 
-nav-bar {
+.nav-stuff {
+    width: 80%;
     display: flex;
     margin: auto;
     padding: auto;
     justify-content: space-between;
-    flex-direction: flex-start;
+    flex-direction: flex-end;
 }
 .grid {
     display: grid;
