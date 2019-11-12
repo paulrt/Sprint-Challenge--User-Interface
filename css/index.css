@@ -208,3 +208,18 @@ header a {
     justify-content: center;
     padding:25px;
 }
+
+.top-half {
+    display:flex;
+    width:100%;
+    margin:0 auto;
+    padding:25px;
+}
+
+.top-half .top-text {
+    display:flex;
+    align-items: column;
+    width:50%;
+    margin:0 auto;
+    padding:25px;
+}
