@@ -158,3 +158,45 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Not sure if this is best practice or if I am supposed to distribute my additions throughout the document, but here is my code minus the nav stuff which is at the top */
+
+#one {
+    background:teal;
+}
+
+#two {
+    background:gold;
+}
+
+#three {
+    background:cadetblue;
+}
+
+#four {
+    background:coral;
+}
+
+#five {
+    background:crimson;
+}
+
+#six {
+    background:forestgreen;
+}
+
+#seven {
+    background:darkorchid;
+}
+
+#eight {
+    background:hotpink;
+}
+
+#nine {
+    background:indigo;
+}
+
+#ten {
+    background:dodgerblue;
+}
