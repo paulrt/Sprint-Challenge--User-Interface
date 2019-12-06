@@ -69,12 +69,13 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding:5%;
 }
 
 nav {
     width:100%;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items:center;
 
 }
@@ -84,6 +85,10 @@ nav a {
     color:black;
 }
 
+.banner {
+    margin:15px 0;
+    
+}
 
 .top-content {
     display: flex;
@@ -141,12 +146,13 @@ nav a {
 }
 
 footer {
-    width: 100%;
+    width: 85%;
     background: black;
+    margin:0 auto;
 }
 
 footer nav {
-    width: 60%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,4 +205,20 @@ footer nav a {
 
 #ten {
     background:dodgerblue;
+}
+
+.parent {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.child {
+    width:48%;
+    padding:5%;
+}
+
+button {
+    border:1px solid black;
+    background:white;
+    border-radius:4px;
 }
